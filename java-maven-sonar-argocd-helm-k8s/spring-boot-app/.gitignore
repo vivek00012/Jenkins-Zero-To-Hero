@@ -1,0 +1,72 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Spring Boot
+target/
+*.log
+*.class
+*.jar
+*.war
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+.mvn/
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+
+# IntelliJ IDEA specific (if working with a project that uses .idea)
+out/
+
+# JetBrains project files
+.idea/.name
+.idea/modules.xml
+.idea/*.iml
+.idea/*.iws
+.idea/workspace.xml
+.idea/.idea/
+
+# Maven Wrapper
+.mvn/wrapper/
+
+# Spring Boot specific
+!src/main/resources/application.properties
+!src/main/resources/application.yml
+
+# JAR and WAR files
+*.war
+*.jar
+*.ear
+
+# Ignore test files
+*.test
